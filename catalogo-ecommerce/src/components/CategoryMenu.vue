@@ -3,7 +3,7 @@
     <!-- Botão para todos -->
     <button
       @click="$emit('select-category', '')"
-      class="px-3 py-1 bg-gray-300 text-gray-800 rounded hover:bg-gray-400"
+      class="px-4 py-2 bg-gradient-to-r from-gray-600 to-gray-700 text-white rounded-lg hover:from-gray-700 hover:to-gray-800 transition-all duration-200 shadow-md hover:shadow-lg font-medium text-sm"
     >
       Todos
     </button>
@@ -13,7 +13,7 @@
       v-for="category in categories"
       :key="category.slug"
       @click="$emit('select-category', category.slug)"
-      class="px-3 py-1 bg-blue-100 text-blue-700 rounded hover:bg-blue-200 capitalize"
+      class="px-4 py-2 bg-gradient-to-r from-purple-100 to-purple-200 text-purple-800 rounded-lg hover:from-purple-200 hover:to-purple-300 transition-all duration-200 shadow-md hover:shadow-lg font-medium text-sm capitalize"
     >
       {{ category.name }}
     </button>
@@ -35,4 +35,3 @@ onMounted(async () => {
   }
 })
 </script>
-
