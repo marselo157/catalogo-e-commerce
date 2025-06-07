@@ -1,5 +1,7 @@
 # Catálogo E-commerce
 
+Link para video no youtube :[https://youtu.be/xP7AOcPvWgI]
+
 Um catálogo de produtos moderno e responsivo desenvolvido com Vue.js 3, que consome a API DummyJSON para exibir produtos de forma organizada e interativa.
 
 ## Características Principais
